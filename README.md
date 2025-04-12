@@ -58,7 +58,9 @@ defineDraggableBox({ COLLAPSE:{...} })
 
 ```
 
-```React
+React
+
+```
   // Sidebar status (please add your own information for useSidebarStore)
   const isOpen = useSidebarStore((state) => state.isOpen);
 
@@ -87,7 +89,9 @@ defineDraggableBox({ COLLAPSE:{...} })
   }, [isOpen]);
 ```
 
-```Vue3
+Vue3
+
+```
 // Register components and run them only once to save performance
 onMounted(() => {
   defineDraggableBox({
