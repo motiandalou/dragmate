@@ -1,0 +1,40 @@
+{
+  "name": "dragmate",
+  "version": "1.0.1",
+  "description": "A lightweight draggable Web Component usable in Vue, React, or plain HTML.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./core": "./dist/core.js",
+    "./types": "./dist/types.d.ts"
+  },
+  "files": [
+    "dist/**/*",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "types.d.ts",
+    "vite.config.js"
+  ],
+  "scripts": {
+    "build": "vite build && cpy types.d.ts dist/"
+  },
+  "keywords": [
+    "drag",
+    "draggable",
+    "frontend"
+  ],
+  "author": {
+    "name": "WEI.JIANG",
+    "email": "cn.jiangwei.1997@gmail.com",
+    "url": "https://motiandalou.github.io/Wei/"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cpy-cli": "^5.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}
