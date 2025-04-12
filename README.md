@@ -151,10 +151,8 @@ Step 3: Use directly
    Drag me～
 </drag-mate>
 
-<script type="module" src="./index.js"></script>
-
 <script type="module">
-  import { defineDraggableBox } from './index.js';
+  import { defineDraggableBox } from 'https://cdn.jsdelivr.net/npm/dragmate/dist/index.js';
   defineDraggableBox();
 </script>
 
